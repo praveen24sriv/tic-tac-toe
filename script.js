@@ -17,6 +17,7 @@ const winpatt=[
     [6,7,8]
 ];
 
+
 boxes.forEach((box)=>{
     box.addEventListener("click",()=>{
         if(turn0){
@@ -81,4 +82,3 @@ const resetGame = ()=>{
 
 newBtn.addEventListener("click",resetGame);
 resetBtn.addEventListener("click",resetGame);
-
